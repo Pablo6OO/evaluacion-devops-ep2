@@ -1,0 +1,24 @@
+services:
+  app-python:
+    build:
+      context: ./microservicio-python
+      dockerfile: Dockerfile
+    container_name: ms-python-app
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+          cpus: "0.5"
+
+  app-java:
+    build:
+      context: ./microservicio-java
+      dockerfile: Dockerfile
+    container_name: ms-java-app
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: "0.5"
