@@ -29,10 +29,10 @@ jobs:
           pytest --cov=src --cov-report=xml:coverage.xml
 
       # 2. Pruebas Microservicio Java
-      - name: Configurar Java 17
+      - name: Configurar Java 21
         uses: actions/setup-java@v4
         with:
-          java-version: '17'
+          java-version: '21'
           distribution: 'temurin'
           cache: maven
 
