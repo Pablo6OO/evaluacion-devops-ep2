@@ -99,4 +99,3 @@ En conformidad con las políticas institucionales de Duoc UC respecto al uso de 
 * **Herramientas empleadas:** Asistente conversacional de Inteligencia Artificial (Gemini).
 * **Alcance de la colaboración:** La herramienta de IA fue utilizada como tutor técnico de apoyo, orientando en la navegación de las plataformas externas (configuración de proyectos y generación de tokens en SonarCloud y Snyk), asistiendo en la estructuración sintáctica de archivos de configuración (`.yml`, `sonar-project.properties`, `pom.xml`) y apoyando activamente en la redacción, orden y formato técnico de este documento `README.md`.
 * **Validación y Autoría:** La instalación de dependencias, ejecución de comandos en la terminal local, depuración de errores, pruebas unitarias, construcción local de contenedores Docker y el envío de cambios (`push`) al repositorio de GitHub fueron ejecutados, probados y verificados manualmente por el estudiante.
-```
